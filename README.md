@@ -52,7 +52,7 @@ This loop will light up every LED in increasing brightness:
 int i = 0;
 for (uint8_t x = 0; x < 15; ++x) {
   for (uint8_t y = 0; y < 7; ++y) {
-    ledmatrix.drawPixel(x, y, ++i]);
+    ledmatrix.drawPixel(x, y, ++i);
   }
 }
 ```
